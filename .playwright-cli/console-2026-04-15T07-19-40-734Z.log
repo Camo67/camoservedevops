@@ -64,3 +64,175 @@
 [ 4742874ms] [LOG] [Fast Refresh] done in 355ms @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
 [ 4772196ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
 [ 4772324ms] [LOG] [Fast Refresh] done in 230ms @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[ 7994394ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[ 7996060ms] [LOG] [Fast Refresh] done in 1746ms @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[ 8083296ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[ 8084573ms] [ERROR] ./components/hero.tsx:228:6
+Unterminated regexp literal
+  226 |         ))}
+  227 |       </div>
+> 228 |     </div>
+      |      ^^^^^
+  229 |   )
+  230 | }
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:3272
+[ 8085029ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[ 8085571ms] [ERROR] ./components/hero.tsx:228:6
+Unterminated regexp literal
+  226 |         ))}
+  227 |       </div>
+> 228 |     </div>
+      |      ^^^^^
+  229 |   )
+  230 | }
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:3272
+[ 8102524ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[ 8103701ms] [ERROR] ./components/hero.tsx:228:6
+Unterminated regexp literal
+  226 |         ))}
+  227 |       </div>
+> 228 |     </div>
+      |      ^^^^^
+  229 |   )
+  230 | }
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:3272
+[ 8103811ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[ 8107369ms] [ERROR] ./components/hero.tsx:228:6
+Unterminated regexp literal
+  226 |         ))}
+  227 |       </div>
+> 228 |     </div>
+      |      ^^^^^
+  229 |   )
+  230 | }
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:3272
+[ 8107471ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[ 8111101ms] [ERROR] ./components/hero.tsx:228:6
+Unterminated regexp literal
+  226 |         ))}
+  227 |       </div>
+> 228 |     </div>
+      |      ^^^^^
+  229 |   )
+  230 | }
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:3272
+[ 8111118ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:3000/platform?_rsc=pddvs:0
+[ 8111245ms] [ERROR] ./components/hero.tsx:228:6
+Unterminated regexp literal
+  226 |         ))}
+  227 |       </div>
+> 228 |     </div>
+      |      ^^^^^
+  229 |   )
+  230 | }
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:3272
+[ 8111264ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:3000/platform?_rsc=pddvs:0
+[ 8111366ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:3000/platform:0
+[ 8112275ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:3000/_next/static/chunks/0e-u_react-dom_0037m-m._.js:15305
+[ 8112514ms] Error: ./components/hero.tsx:228:6
+Unterminated regexp literal
+  226 |         ))}
+  227 |       </div>
+> 228 |     </div>
+      |      ^^^^^
+  229 |   )
+  230 | }
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+
+    at <unknown> (Error: ./components/hero.tsx:228:6)
+    at Object.getCompilationErrors (file:///home/camo/Downloads/Camoportfolio/node_modules/.pnpm/next@16.2.3_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/camo/Downloads/Camoportfolio/node_modules/.pnpm/next@16.2.3_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/camo/Downloads/Camoportfolio/node_modules/.pnpm/next@16.2.3_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///home/camo/Downloads/Camoportfolio/node_modules/.pnpm/next@16.2.3_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/camo/Downloads/Camoportfolio/node_modules/.pnpm/next@16.2.3_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/server/base-server.js:1745:26)
+[ 8112516ms] [LOG] [HMR] connected @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0b114m5._.js:1226
+[ 8112543ms] [ERROR] ./components/hero.tsx:228:6
+Unterminated regexp literal
+  226 |         ))}
+  227 |       </div>
+> 228 |     </div>
+      |      ^^^^^
+  229 |   )
+  230 | }
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0b114m5._.js:1945
+[ 8112673ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3000/favicon.ico:0
+[ 8112724ms] [ERROR] ./components/hero.tsx:228:6
+Unterminated regexp literal
+  226 |         ))}
+  227 |       </div>
+> 228 |     </div>
+      |      ^^^^^
+  229 |   )
+  230 | }
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0b114m5._.js:1945
+[ 8112882ms] [ERROR] ./components/hero.tsx:228:6
+Unterminated regexp literal
+  226 |         ))}
+  227 |       </div>
+> 228 |     </div>
+      |      ^^^^^
+  229 |   )
+  230 | }
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0b114m5._.js:1945
+[ 8112901ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0b114m5._.js:1226
