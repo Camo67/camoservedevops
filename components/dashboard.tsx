@@ -85,13 +85,16 @@ export async function Dashboard() {
     ? [
         { label: "Stars", value: repoData.stargazers_count.toLocaleString(), icon: Github },
         { label: "Forks", value: repoData.forks_count.toLocaleString(), icon: BarChart3 },
-        { label: "Open Issues", value: repoData.open_issues_count.toLocaleString(), icon: Cpu },
+        { label: "Watchers", value: repoData.watchers_count.toLocaleString(), icon: Cpu },
       ]
     : [
         { label: "Stars", value: "—", icon: Github },
         { label: "Forks", value: "—", icon: BarChart3 },
         { label: "Issues", value: "—", icon: Cpu },
       ]
+
+  const repoOverview = repoData?.description ??
+    "A wrapped presentation of your repository inside the site UI, including live metrics, repo actions, and progress details.";
 
   return (
     <section id="dashboard" className="scroll-mt-24">
@@ -115,6 +118,20 @@ export async function Dashboard() {
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
               Live GitHub repository metrics for your configured project. Data refreshes from GitHub every minute.
             </p>
+            <div className="mt-6 flex flex-col gap-4 rounded-sm border border-primary/10 bg-white/5 p-4 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <p className="text-xs uppercase tracking-[0.35em] text-primary/70">Repo snapshot</p>
+                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{repoOverview}</p>
+              </div>
+              <Link
+                href={repoData?.html_url ?? `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex w-full items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-background transition hover:bg-primary/90 sm:w-auto"
+              >
+                Open repository on GitHub
+              </Link>
+            </div>
             <div className="mt-6 grid gap-3 sm:grid-cols-3">
               {repoStats.map((stat) => {
                 const Icon = stat.icon
