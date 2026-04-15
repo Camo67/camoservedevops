@@ -1,27 +1,38 @@
 import { ArrowUpRight, Mail, Radio } from "lucide-react"
+import Image from "next/image"
 import Link from "next/link"
 
 export function Contact() {
   return (
-    <section id="contact" className="scroll-mt-24">
-      <h2 className="mb-8 flex items-center gap-3 text-sm font-mono uppercase tracking-widest text-primary">
+    <section id="contact" className="scroll-mt-24 section-shell">
+      <h2 className="section-heading">
         <Radio className="h-4 w-4" />
         Establish Comms
       </h2>
       <div className="space-y-6">
-        <div className="rounded-sm border border-primary/20 bg-card/30 p-6">
-          <p className="text-muted-foreground leading-relaxed max-w-lg font-mono text-sm">
+        <div className="panel-card p-6">
+          <p className="max-w-lg font-mono text-sm leading-7 text-muted-foreground">
             {">"} Interested in collaborating on secure automation systems, community projects, 
             or discussing platform engineering? I&apos;m always open to connecting with 
             like-minded builders and security practitioners.
           </p>
         </div>
-        <div className="rounded-sm border border-primary/20 bg-card/30 p-6">
-          <div className="mb-3 flex items-center gap-2 text-sm font-mono uppercase tracking-widest text-primary">
-            <span className="h-2 w-2 rounded-full bg-primary" />
-            OCIU Program Inquiry
+        <div className="panel-card p-6">
+          <div className="mb-4 flex items-center gap-4">
+            <div className="panel-card-soft relative h-16 w-16 overflow-hidden p-1">
+              <Image
+                src="/OCIU.png"
+                alt="OCIU logo"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <div className="flex items-center gap-2 text-sm font-mono uppercase tracking-[0.24em] text-primary">
+              <span className="h-2 w-2 rounded-full bg-primary" />
+              OCIU Program Inquiry
+            </div>
           </div>
-          <p className="text-muted-foreground leading-relaxed max-w-lg font-mono text-sm">
+          <p className="max-w-lg font-mono text-sm leading-7 text-muted-foreground">
             For information on joining the WeCreate youth training series, connect with Our Community in Unity (OCIU) directly. The program centers on cloud computing, digital marketing, and video editing, guided by the philosophy "Each one teach one."
           </p>
           <ul className="mt-4 space-y-2 text-sm text-muted-foreground font-mono">
@@ -50,7 +61,7 @@ export function Contact() {
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
           <Link
             href="mailto:camo@79ratio.com"
-            className="inline-flex items-center justify-center gap-2 rounded-sm border border-primary bg-primary px-6 py-3 text-sm font-mono text-primary-foreground transition-colors hover:bg-primary/90 glow-border"
+            className="action-primary px-6 py-3 text-sm font-mono"
           >
             <Mail className="h-4 w-4" />
             INITIATE CONTACT
@@ -59,7 +70,7 @@ export function Contact() {
             href="https://github.com/camodevops"
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center justify-center gap-2 rounded-sm border border-primary/50 bg-transparent px-6 py-3 text-sm font-mono text-primary transition-colors hover:bg-primary/10"
+            className="action-secondary group px-6 py-3 text-sm font-mono"
           >
             VIEW GITHUB PROFILE
             <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
@@ -68,7 +79,7 @@ export function Contact() {
             href="https://wa.me/27604549405"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 rounded-sm border border-emerald-500 bg-emerald-500/10 px-6 py-3 text-sm font-mono text-emerald-400 transition-colors hover:bg-emerald-500/20"
+            className="action-secondary px-6 py-3 text-sm font-mono text-emerald-300"
           >
             <span className="h-4 w-4 rounded-full bg-emerald-400" />
             CONTACT ON WHATSAPP

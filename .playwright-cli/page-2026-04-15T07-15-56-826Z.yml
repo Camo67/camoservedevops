@@ -1,0 +1,659 @@
+- main [ref=e2]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e6]:
+        - img "CamoServices logo" [ref=e9]
+        - generic [ref=e10]:
+          - generic [ref=e13]: "SYSTEM STATUS: OPERATIONAL"
+          - generic [ref=e14]: "USER: COMMANDER"
+          - generic [ref=e15]: "ENCRYPTION: ACTIVE"
+          - generic [ref=e16]: "SESSION ID: 001-OPENING"
+        - img "Cameron de Vries" [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - img [ref=e22]
+            - generic [ref=e24]: CamoServices
+          - generic [ref=e25]:
+            - heading "Cameron “Camo” De Vries" [level=1] [ref=e26]
+            - paragraph [ref=e27]: Hyperspace 4D command grid active_
+          - generic [ref=e28]:
+            - paragraph [ref=e29]: Multi-disciplinary security and automation practitioner operating as CamoServices. I build secure, scalable platforms that merge physical risk management with digital infrastructure efficiency in a new 4D resolution.
+            - paragraph [ref=e30]: Experience high-fidelity systems with holographic visuals, AI-driven orchestration, and live operational telemetry wrapped in futuristic site design.
+            - paragraph [ref=e31]: My stack spans TypeScript, Next.js, Python, Rust, Supabase, and local edge systems, from P2P marketplaces to AI orchestration and network edge nodes.
+          - link "Explore platform intelligence" [ref=e33] [cursor=pointer]:
+            - /url: /platform
+          - generic [ref=e34]:
+            - img [ref=e35]
+            - generic [ref=e38]: "AO: Bonteheuwel, Cape Town, ZA"
+        - generic [ref=e39]:
+          - paragraph [ref=e40]: Quick navigation
+          - generic [ref=e41]:
+            - link "About" [ref=e42] [cursor=pointer]:
+              - /url: "#about"
+            - link "Experience" [ref=e43] [cursor=pointer]:
+              - /url: "#experience"
+            - link "Projects" [ref=e44] [cursor=pointer]:
+              - /url: "#projects"
+            - link "Ventures" [ref=e45] [cursor=pointer]:
+              - /url: "#ventures"
+            - link "Skills" [ref=e46] [cursor=pointer]:
+              - /url: "#skills"
+            - link "Platform" [ref=e47] [cursor=pointer]:
+              - /url: /platform
+            - link "AV Explorer" [ref=e48] [cursor=pointer]:
+              - /url: /av-explorer
+            - link "Contact" [ref=e49] [cursor=pointer]:
+              - /url: "#contact"
+        - generic [ref=e50]:
+          - link "GitHub" [ref=e51] [cursor=pointer]:
+            - /url: https://github.com/camodevops
+            - img [ref=e52]
+          - link "LinkedIn" [ref=e55] [cursor=pointer]:
+            - /url: https://linkedin.com/in/camerondevries
+            - img [ref=e56]
+          - link "Podcast" [ref=e60] [cursor=pointer]:
+            - /url: https://open.spotify.com/show/7cwfPZpCqL3L1T0gLsjkx0
+            - img [ref=e61]
+          - link "Email" [ref=e66] [cursor=pointer]:
+            - /url: mailto:camo@79ratio.com
+            - img [ref=e67]
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - heading "Intel Brief" [level=2] [ref=e72]:
+          - img [ref=e73]
+          - text: Intel Brief
+        - img "Cameron De Vries - Career Journey Infographic" [ref=e77]
+        - generic [ref=e78]:
+          - paragraph [ref=e79]: Operating from my Area of Operations (AO) in Bonteheuwel, Cape Town, I engineer secure, scalable digital systems that sit at the intersection of physical risk management and operational technology.
+          - paragraph [ref=e80]:
+            - text: Under the CamodevOps and
+            - link "79Ratio" [ref=e81] [cursor=pointer]:
+              - /url: https://79ratio.com
+            - text: banner, I design platform engineering solutions for authentication, access control, data tracking, and SME enablement using TypeScript, Next.js, Python, Rust, and Supabase.
+          - paragraph [ref=e82]: I support local small businesses like Yong’s SecurieCam and Ancestral Holistic Healing to build secure digital presence and operational systems.
+          - paragraph [ref=e83]: My operational portfolio includes Buddies Worldwide, a P2P marketplace for South Africa's informal economy with integrated escrow and Paxi logistics; OpenClaw, an AI deployment arm powering local LLM orchestration; and The Vault, a hardware edge node initiative repurposing 5G outdoor CPE into resilient infrastructure.
+          - paragraph [ref=e84]:
+            - text: I also lead community impact through
+            - link "OCIU" [ref=e85] [cursor=pointer]:
+              - /url: "#ventures"
+            - text: ", a Level 1 B-BBEE non-profit in Bonteheuwel centered on community empowerment and youth development. OCIU runs the WeCreate series, delivering practical training in cloud computing, digital marketing, and video editing, guided by the motto “Each One Teach One.” I also manage a portfolio of 18+ white-label commerce and media platforms."
+          - paragraph [ref=e86]: “Each One Teach One.”
+      - generic [ref=e87]:
+        - heading "System Dashboard" [level=2] [ref=e88]:
+          - img [ref=e89]
+          - text: System Dashboard
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - generic [ref=e95]:
+                - generic [ref=e96]:
+                  - paragraph [ref=e97]: GitHub Repo Pulse
+                  - heading "camodevops/Camoportfolio" [level=3] [ref=e98]
+                - img [ref=e99]
+              - paragraph [ref=e102]: Live GitHub repository metrics for your configured project. Data refreshes from GitHub every minute.
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - paragraph [ref=e105]: Repo snapshot
+                  - paragraph [ref=e106]: A wrapped presentation of your repository inside the site UI, including live metrics, repo actions, and progress details.
+                - link "Open repository on GitHub" [ref=e107] [cursor=pointer]:
+                  - /url: https://github.com/camodevops/Camoportfolio
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - img [ref=e111]
+                    - paragraph [ref=e114]: Stars
+                  - paragraph [ref=e115]: —
+                - generic [ref=e116]:
+                  - generic [ref=e117]:
+                    - img [ref=e118]
+                    - paragraph [ref=e120]: Forks
+                  - paragraph [ref=e121]: —
+                - generic [ref=e122]:
+                  - generic [ref=e123]:
+                    - img [ref=e124]
+                    - paragraph [ref=e127]: Issues
+                  - paragraph [ref=e128]: —
+              - generic [ref=e129]:
+                - generic [ref=e130]:
+                  - paragraph [ref=e131]: Last pushed
+                  - paragraph [ref=e132]: Unavailable
+                - generic [ref=e133]:
+                  - paragraph [ref=e134]: License
+                  - paragraph [ref=e135]: Unknown
+            - generic [ref=e136]:
+              - generic [ref=e138]:
+                - paragraph [ref=e139]: Info Graphic
+                - heading "Platform intelligence" [level=3] [ref=e140]
+              - img "CamodevOps infrastructure and stack infographic" [ref=e142]
+              - paragraph [ref=e143]: Visual summary of GitHub, site uptime, and platform flow — embedded directly from your shared infographic asset.
+              - generic [ref=e144]:
+                - paragraph [ref=e145]: For deeper context, explore the platform architecture and delivery model in the next section.
+                - link "Explore the platform intelligence page" [ref=e146] [cursor=pointer]:
+                  - /url: /platform
+            - generic [ref=e147]:
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - paragraph [ref=e150]: Tech Stack
+                  - heading "Stack usage" [level=3] [ref=e151]
+                - img [ref=e152]
+              - generic [ref=e154]:
+                - generic [ref=e156]:
+                  - generic [ref=e157]: TypeScript
+                  - generic [ref=e158]: 92%
+                - generic [ref=e162]:
+                  - generic [ref=e163]: Next.js
+                  - generic [ref=e164]: 88%
+                - generic [ref=e168]:
+                  - generic [ref=e169]: Python
+                  - generic [ref=e170]: 80%
+                - generic [ref=e174]:
+                  - generic [ref=e175]: Rust
+                  - generic [ref=e176]: 70%
+                - generic [ref=e180]:
+                  - generic [ref=e181]: Supabase
+                  - generic [ref=e182]: 76%
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - generic [ref=e187]:
+                - generic [ref=e188]:
+                  - paragraph [ref=e189]: System Info
+                  - heading "Dashboard health" [level=3] [ref=e190]
+                - img [ref=e191]
+              - generic [ref=e194]:
+                - generic [ref=e195]:
+                  - generic [ref=e196]: Platform
+                  - generic [ref=e197]: Ubuntu Linux
+                - generic [ref=e198]:
+                  - generic [ref=e199]: Theme
+                  - generic [ref=e200]: Neon / Dark
+                - generic [ref=e201]:
+                  - generic [ref=e202]: Status
+                  - generic [ref=e203]: Operational
+                - generic [ref=e204]:
+                  - generic [ref=e205]: Deployment
+                  - generic [ref=e206]: Vercel
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - generic [ref=e209]:
+                  - paragraph [ref=e210]: Sites Online
+                  - heading "Uptime checks" [level=3] [ref=e211]
+                - img [ref=e212]
+              - generic [ref=e215]:
+                - link "79Ratio 200 ONLINE 8ms" [ref=e216] [cursor=pointer]:
+                  - /url: https://79ratio.com
+                  - generic [ref=e217]:
+                    - paragraph [ref=e218]: 79Ratio
+                    - paragraph [ref=e219]: "200"
+                  - generic [ref=e220]:
+                    - generic [ref=e221]: ONLINE
+                    - paragraph [ref=e222]: 8ms
+                - link "Unspoken Truths Request failed OFFLINE 91ms" [ref=e223] [cursor=pointer]:
+                  - /url: https://unspoken-truths.com
+                  - generic [ref=e224]:
+                    - paragraph [ref=e225]: Unspoken Truths
+                    - paragraph [ref=e226]: Request failed
+                  - generic [ref=e227]:
+                    - generic [ref=e228]: OFFLINE
+                    - paragraph [ref=e229]: 91ms
+                - link "OCIU 200 ONLINE 5ms" [ref=e230] [cursor=pointer]:
+                  - /url: https://ourcommunityinunity.org
+                  - generic [ref=e231]:
+                    - paragraph [ref=e232]: OCIU
+                    - paragraph [ref=e233]: "200"
+                  - generic [ref=e234]:
+                    - generic [ref=e235]: ONLINE
+                    - paragraph [ref=e236]: 5ms
+      - generic [ref=e237]:
+        - heading "Service Record" [level=2] [ref=e238]:
+          - img [ref=e239]
+          - text: Service Record
+        - generic [ref=e242]:
+          - link "2024 — PRESENT Engineering Lead & Platform Architect · 79Ratio / CamodevOps Leading secure platform engineering and automation across SMEs, marketplaces, and AI systems. I focus on authentication, access control, data tracking, edge infrastructure, and durable income-aligned operations. Technologies used" [ref=e243] [cursor=pointer]:
+            - /url: https://79ratio.com
+            - generic [ref=e244]: 2024 — PRESENT
+            - generic [ref=e245]:
+              - heading "Engineering Lead & Platform Architect · 79Ratio / CamodevOps" [level=3] [ref=e246]:
+                - generic [ref=e247]:
+                  - text: Engineering Lead & Platform Architect
+                  - generic [ref=e248]: ·
+                  - text: 79Ratio / CamodevOps
+                  - img [ref=e249]
+              - paragraph [ref=e252]: Leading secure platform engineering and automation across SMEs, marketplaces, and AI systems. I focus on authentication, access control, data tracking, edge infrastructure, and durable income-aligned operations.
+              - list "Technologies used" [ref=e253]:
+                - listitem [ref=e254]: TypeScript
+                - listitem [ref=e255]: Next.js
+                - listitem [ref=e256]: Python
+                - listitem [ref=e257]: Rust
+                - listitem [ref=e258]: Supabase
+                - listitem [ref=e259]: Edge Computing
+          - link "2024 — PRESENT Commanding Officer · OCIU (Our Community in Unity) Directing a Level 1 B-BBEE non-profit. Leading the \"WeCreate\" training series empowering youth with cloud computing, digital marketing, and video editing skills. Acting as a stabilizing force in Cape Town's high-pressure environment. Technologies used" [ref=e260] [cursor=pointer]:
+            - /url: "#ventures"
+            - generic [ref=e261]: 2024 — PRESENT
+            - generic [ref=e262]:
+              - heading "Commanding Officer · OCIU (Our Community in Unity)" [level=3] [ref=e263]:
+                - generic [ref=e264]:
+                  - text: Commanding Officer
+                  - generic [ref=e265]: ·
+                  - text: OCIU (Our Community in Unity)
+                  - img [ref=e266]
+              - paragraph [ref=e269]: Directing a Level 1 B-BBEE non-profit. Leading the "WeCreate" training series empowering youth with cloud computing, digital marketing, and video editing skills. Acting as a stabilizing force in Cape Town's high-pressure environment.
+              - list "Technologies used" [ref=e270]:
+                - listitem [ref=e271]: Leadership
+                - listitem [ref=e272]: Community
+                - listitem [ref=e273]: Training
+                - listitem [ref=e274]: B-BBEE Level 1
+          - link "2025 Full Stack Development Certification · FNB App Academy Validated mastery of the complete SDLC—from UI/UX design to robust backend API integration. Formalized proficiency in TypeScript, React, Node.js, and modern development practices. Technologies used" [ref=e275] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e276]: "2025"
+            - generic [ref=e277]:
+              - heading "Full Stack Development Certification · FNB App Academy" [level=3] [ref=e278]:
+                - generic [ref=e279]:
+                  - text: Full Stack Development Certification
+                  - generic [ref=e280]: ·
+                  - text: FNB App Academy
+                  - img [ref=e281]
+              - paragraph [ref=e284]: Validated mastery of the complete SDLC—from UI/UX design to robust backend API integration. Formalized proficiency in TypeScript, React, Node.js, and modern development practices.
+              - list "Technologies used" [ref=e285]:
+                - listitem [ref=e286]: Full Stack
+                - listitem [ref=e287]: SDLC
+                - listitem [ref=e288]: UI/UX
+                - listitem [ref=e289]: API Integration
+          - link "2020 — 2024 Theater Engineer & Sound Technician · Saga Cruises & MSC Cruises Operated within strict STCW maritime safety protocols and passenger management frameworks. Deployed complex PA setups and theater-grade audio systems. Certified in Emergency Response, Crowd Management, Fire Prevention, and Personal Survival. Technologies used" [ref=e290] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e291]: 2020 — 2024
+            - generic [ref=e292]:
+              - heading "Theater Engineer & Sound Technician · Saga Cruises & MSC Cruises" [level=3] [ref=e293]:
+                - generic [ref=e294]:
+                  - text: Theater Engineer & Sound Technician
+                  - generic [ref=e295]: ·
+                  - text: Saga Cruises & MSC Cruises
+                  - img [ref=e296]
+              - paragraph [ref=e299]: Operated within strict STCW maritime safety protocols and passenger management frameworks. Deployed complex PA setups and theater-grade audio systems. Certified in Emergency Response, Crowd Management, Fire Prevention, and Personal Survival.
+              - list "Technologies used" [ref=e300]:
+                - listitem [ref=e301]: Soundcraft
+                - listitem [ref=e302]: JBL
+                - listitem [ref=e303]: Yamaha
+                - listitem [ref=e304]: STCW
+                - listitem [ref=e305]: Maritime Safety
+          - link "2019 — 2020 Physical Security Operations · Field Security Completed structured physical security training, achieving Grades D through B. Developed procedural discipline, situational awareness, and accountability that now informs my digital security approach. Technologies used" [ref=e306] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e307]: 2019 — 2020
+            - generic [ref=e308]:
+              - heading "Physical Security Operations · Field Security" [level=3] [ref=e309]:
+                - generic [ref=e310]:
+                  - text: Physical Security Operations
+                  - generic [ref=e311]: ·
+                  - text: Field Security
+                  - img [ref=e312]
+              - paragraph [ref=e315]: Completed structured physical security training, achieving Grades D through B. Developed procedural discipline, situational awareness, and accountability that now informs my digital security approach.
+              - list "Technologies used" [ref=e316]:
+                - listitem [ref=e317]: Security Grade B
+                - listitem [ref=e318]: Access Control
+                - listitem [ref=e319]: Risk Management
+      - generic [ref=e320]:
+        - heading "Active Operations" [level=2] [ref=e321]:
+          - img [ref=e322]
+          - text: Active Operations
+        - generic [ref=e327]:
+          - generic [ref=e329]:
+            - generic [ref=e330]:
+              - heading "Agent Kyra" [level=3] [ref=e331]:
+                - generic [ref=e332]:
+                  - text: Agent Kyra
+                  - img [ref=e333]
+              - generic [ref=e336]: ACTIVE
+            - paragraph [ref=e337]: Localized LLM orchestration system running Qwen3-0.6B-Q4_K_M.gguf on local hardware. Serves as a private, secure AI assistant for internal family and business operations.
+            - link "CODE" [ref=e339] [cursor=pointer]:
+              - /url: https://github.com/camodevops
+              - img [ref=e340]
+              - text: CODE
+            - list "Technologies used" [ref=e343]:
+              - listitem [ref=e344]: Python
+              - listitem [ref=e345]: LLM
+              - listitem [ref=e346]: Qwen3
+              - listitem [ref=e347]: Local AI
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - heading "Buddies Worldwide" [level=3] [ref=e351]:
+                - generic [ref=e352]:
+                  - text: Buddies Worldwide
+                  - img [ref=e353]
+              - generic [ref=e356]: ACTIVE
+            - paragraph [ref=e357]: P2P marketplace empowering South Africa's informal economy through escrow-secured transactions and integrated Paxi logistics.
+            - link "CODE" [ref=e359] [cursor=pointer]:
+              - /url: https://github.com/camodevops
+              - img [ref=e360]
+              - text: CODE
+            - list "Technologies used" [ref=e363]:
+              - listitem [ref=e364]: TypeScript
+              - listitem [ref=e365]: Next.js
+              - listitem [ref=e366]: Escrow
+              - listitem [ref=e367]: Paxi
+          - generic [ref=e369]:
+            - generic [ref=e370]:
+              - heading "The Vault" [level=3] [ref=e371]:
+                - generic [ref=e372]:
+                  - text: The Vault
+                  - img [ref=e373]
+              - generic [ref=e376]: ACTIVE
+            - paragraph [ref=e377]: Hardware edge node project repurposing Huawei N5368X 5G Outdoor CPE into resilient networking infrastructure for local processing and secure operations.
+            - link "CODE" [ref=e379] [cursor=pointer]:
+              - /url: https://github.com/camodevops
+              - img [ref=e380]
+              - text: CODE
+            - list "Technologies used" [ref=e383]:
+              - listitem [ref=e384]: Linux
+              - listitem [ref=e385]: Ubuntu
+              - listitem [ref=e386]: 5G
+              - listitem [ref=e387]: Edge Computing
+          - generic [ref=e389]:
+            - generic [ref=e390]:
+              - heading "Cape FarmScan" [level=3] [ref=e391]:
+                - generic [ref=e392]:
+                  - text: Cape FarmScan
+                  - img [ref=e393]
+              - generic [ref=e396]: PROTOTYPE
+            - paragraph [ref=e397]: Agri-tech drone imaging and NDVI analytics for vineyards, delivering practical crop intelligence for the Western Cape.
+            - link "CODE" [ref=e399] [cursor=pointer]:
+              - /url: https://github.com/camodevops
+              - img [ref=e400]
+              - text: CODE
+            - list "Technologies used" [ref=e403]:
+              - listitem [ref=e404]: Drone
+              - listitem [ref=e405]: NDVI
+              - listitem [ref=e406]: Agriculture
+              - listitem [ref=e407]: Data Analytics
+          - generic [ref=e409]:
+            - generic [ref=e410]:
+              - heading "Zeta Cyber Shield" [level=3] [ref=e411]:
+                - generic [ref=e412]:
+                  - text: Zeta Cyber Shield
+                  - img [ref=e413]
+              - generic [ref=e416]: PROPOSAL
+            - paragraph [ref=e417]: Proposed collaborative defense model targeting financial ecosystem risk and community resilience through shared intelligence and training.
+            - list "Technologies used" [ref=e418]:
+              - listitem [ref=e419]: Cybersecurity
+              - listitem [ref=e420]: Banking
+              - listitem [ref=e421]: Defense
+              - listitem [ref=e422]: Strategy
+          - generic [ref=e424]:
+            - generic [ref=e425]:
+              - heading "White-Label Platform Portfolio" [level=3] [ref=e426]:
+                - generic [ref=e427]:
+                  - text: White-Label Platform Portfolio
+                  - img [ref=e428]
+              - generic [ref=e431]: ACTIVE
+            - paragraph [ref=e432]: Managing a suite of specialized commerce and media platforms with income-aligned operations, privacy-aware product delivery, and market-specific automation.
+            - list "Technologies used" [ref=e433]:
+              - listitem [ref=e434]: PlatformOps
+              - listitem [ref=e435]: Commerce
+              - listitem [ref=e436]: Automation
+              - listitem [ref=e437]: Privacy
+          - generic [ref=e439]:
+            - generic [ref=e440]:
+              - heading "Unspoken-Truths Podcast" [level=3] [ref=e441]:
+                - generic [ref=e442]:
+                  - text: Unspoken-Truths Podcast
+                  - img [ref=e443]
+              - generic [ref=e446]: LIVE
+            - paragraph [ref=e447]: Primary intelligence channel exploring themes like the "Misguided War" (redirecting community anger toward systemic poverty) and legal literacy. Building community intelligence and resilience.
+            - generic [ref=e448]:
+              - link "VIEW" [ref=e449] [cursor=pointer]:
+                - /url: https://open.spotify.com/show/7cwfPZpCqL3L1T0gLsjkx0
+                - img [ref=e450]
+                - text: VIEW
+              - link "SPOTIFY SHOW" [ref=e454] [cursor=pointer]:
+                - /url: https://open.spotify.com/show/7cwfPZpCqL3L1T0gLsjkx0
+                - img [ref=e455]
+                - text: SPOTIFY SHOW
+            - generic [ref=e459]:
+              - generic [ref=e460]: Podcast episodes
+              - list [ref=e461]:
+                - listitem [ref=e462]:
+                  - link "Latest episode on Spotify" [ref=e463] [cursor=pointer]:
+                    - /url: https://open.spotify.com/episode/6uGQ255DFzKzKWZMeEmW2R?si=J78_JOIWSO-d8cQHPtFILQ
+                - listitem [ref=e464]:
+                  - link "New Spotify episode" [ref=e465] [cursor=pointer]:
+                    - /url: https://open.spotify.com/episode/3IFkweY13SSAzSgxHMMjHX?si=xECL5oGCSt-tisz4zcXZpQ
+                - listitem [ref=e466]:
+                  - link "Most recent Spotify episode" [ref=e467] [cursor=pointer]:
+                    - /url: https://open.spotify.com/episode/3aDu4VNpN9OumSYxFdF3N5?si=tzu0yz8BTRGX_6ZKZ7Cq5Q
+                - listitem [ref=e468]:
+                  - link "Latest YouTube video" [ref=e469] [cursor=pointer]:
+                    - /url: https://youtu.be/_D94aHfI_h0
+            - generic [ref=e470]:
+              - generic [ref=e471]: Spotify Podcast Embed
+              - iframe [ref=e473]
+            - generic [ref=e474]:
+              - generic [ref=e475]: YouTube Channel
+              - paragraph [ref=e476]: Subscribe and watch channel content from @2cameyboy6.
+              - link "Visit YouTube Channel" [ref=e477] [cursor=pointer]:
+                - /url: https://www.youtube.com/@2cameyboy6
+                - img [ref=e478]
+                - text: Visit YouTube Channel
+              - iframe [ref=e483]
+            - list "Technologies used" [ref=e484]:
+              - listitem [ref=e485]: Audio
+              - listitem [ref=e486]: Community
+              - listitem [ref=e487]: Social Justice
+        - link "[VIEW FULL PROJECT ARCHIVE]" [ref=e489] [cursor=pointer]:
+          - /url: https://github.com/camodevops
+          - text: "[VIEW FULL PROJECT ARCHIVE]"
+          - img [ref=e490]
+      - generic [ref=e493]:
+        - heading "Business Pillars" [level=2] [ref=e494]:
+          - img [ref=e495]
+          - text: Business Pillars
+        - generic [ref=e499]:
+          - 'link "HQ Technical Engineering & Consulting CamodevOps and 79Ratio: secure platform engineering, SME support, authentication, access control, data tracking, and Ubuntu/Linux edge infrastructure." [ref=e500] [cursor=pointer]':
+            - /url: https://79ratio.com
+            - generic [ref=e501]:
+              - img [ref=e503]
+              - generic [ref=e507]:
+                - generic [ref=e508]: HQ
+                - img [ref=e509]
+            - heading "Technical Engineering & Consulting" [level=3] [ref=e512]
+            - paragraph [ref=e513]: "CamodevOps and 79Ratio: secure platform engineering, SME support, authentication, access control, data tracking, and Ubuntu/Linux edge infrastructure."
+          - 'link "ACTIVE Commercial Marketplaces Buddies Worldwide: peer-to-peer marketplace for South Africa''s informal economy with escrow security and Paxi logistics integration." [ref=e514] [cursor=pointer]':
+            - /url: "#"
+            - generic [ref=e515]:
+              - img [ref=e517]
+              - generic [ref=e520]:
+                - generic [ref=e521]: ACTIVE
+                - img [ref=e522]
+            - heading "Commercial Marketplaces" [level=3] [ref=e525]
+            - paragraph [ref=e526]: "Buddies Worldwide: peer-to-peer marketplace for South Africa's informal economy with escrow security and Paxi logistics integration."
+          - 'link "DEV AI & Emerging Technology OpenClaw: local LLM orchestration with Agent Kyra, Origin Quantum Cloud exploration, and Cape FarmScan drone analytics for vineyards." [ref=e527] [cursor=pointer]':
+            - /url: "#"
+            - generic [ref=e528]:
+              - img [ref=e530]
+              - generic [ref=e533]:
+                - generic [ref=e534]: DEV
+                - img [ref=e535]
+            - heading "AI & Emerging Technology" [level=3] [ref=e538]
+            - paragraph [ref=e539]: "OpenClaw: local LLM orchestration with Agent Kyra, Origin Quantum Cloud exploration, and Cape FarmScan drone analytics for vineyards."
+          - 'link "ACTIVE Community & Social Impact OCIU: Level 1 B-BBEE non-profit in Bonteheuwel focused on community empowerment and youth development. WeCreate delivers hands-on training in cloud computing, digital marketing, and video editing, guided by the motto “Each One Teach One.”" [ref=e540] [cursor=pointer]':
+            - /url: "#"
+            - generic [ref=e541]:
+              - img [ref=e543]
+              - generic [ref=e548]:
+                - generic [ref=e549]: ACTIVE
+                - img [ref=e550]
+            - heading "Community & Social Impact" [level=3] [ref=e553]
+            - paragraph [ref=e554]: "OCIU: Level 1 B-BBEE non-profit in Bonteheuwel focused on community empowerment and youth development. WeCreate delivers hands-on training in cloud computing, digital marketing, and video editing, guided by the motto “Each One Teach One.”"
+          - link "ACTIVE Specialized & White-Label Projects Managing 18+ white-label commerce and media platforms with practical security, income-aligned operations, and discrete delivery." [ref=e555] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e556]:
+              - img [ref=e558]
+              - generic [ref=e560]:
+                - generic [ref=e561]: ACTIVE
+                - img [ref=e562]
+            - heading "Specialized & White-Label Projects" [level=3] [ref=e565]
+            - paragraph [ref=e566]: Managing 18+ white-label commerce and media platforms with practical security, income-aligned operations, and discrete delivery.
+        - generic [ref=e567]:
+          - heading "Certifications & Validation" [level=3] [ref=e568]:
+            - img [ref=e569]
+            - text: Certifications & Validation
+          - generic [ref=e571]:
+            - generic [ref=e572]:
+              - generic [ref=e573]:
+                - generic [ref=e574]:
+                  - img [ref=e575]
+                  - heading "FNB App Academy Certification" [level=4] [ref=e578]
+                - generic [ref=e579]: "2025"
+              - paragraph [ref=e580]: Full Stack Development - validated mastery of complete SDLC
+              - generic [ref=e583]: 100%
+            - generic [ref=e584]:
+              - generic [ref=e585]:
+                - generic [ref=e586]:
+                  - img [ref=e587]
+                  - heading "Security Certifications" [level=4] [ref=e590]
+                - generic [ref=e591]: 2019-2020
+              - paragraph [ref=e592]: Physical Security Grades D through B
+              - generic [ref=e595]: 100%
+            - generic [ref=e596]:
+              - generic [ref=e597]:
+                - generic [ref=e598]:
+                  - img [ref=e599]
+                  - heading "Maritime STCW" [level=4] [ref=e602]
+                - generic [ref=e603]: 2020-2024
+              - paragraph [ref=e604]: Emergency Response, Crowd Management, Fire Prevention, Personal Survival
+              - generic [ref=e607]: 100%
+            - generic [ref=e608]:
+              - generic [ref=e609]:
+                - generic [ref=e610]:
+                  - img [ref=e611]
+                  - heading "CompTIA Security+" [level=4] [ref=e614]
+                - generic [ref=e615]: In Progress
+              - paragraph [ref=e616]: Formalizing transition into specialized cybersecurity and DevSecOps roles
+              - generic [ref=e619]: 50%
+      - generic [ref=e620]:
+        - heading "Technical Arsenal" [level=2] [ref=e621]:
+          - img [ref=e622]
+          - text: Technical Arsenal
+        - generic [ref=e625]:
+          - generic [ref=e627]:
+            - generic [ref=e628]: TypeScript
+            - generic [ref=e629]: 90%
+          - generic [ref=e633]:
+            - generic [ref=e634]: Next.js
+            - generic [ref=e635]: 85%
+          - generic [ref=e639]:
+            - generic [ref=e640]: Python
+            - generic [ref=e641]: 80%
+          - generic [ref=e645]:
+            - generic [ref=e646]: Rust
+            - generic [ref=e647]: 60%
+          - generic [ref=e651]:
+            - generic [ref=e652]: Linux
+            - generic [ref=e653]: 85%
+          - generic [ref=e657]:
+            - generic [ref=e658]: React
+            - generic [ref=e659]: 85%
+        - generic [ref=e662]:
+          - generic [ref=e663]:
+            - generic [ref=e664]:
+              - img [ref=e666]
+              - heading "Languages & Frameworks" [level=3] [ref=e669]
+            - list [ref=e670]:
+              - listitem [ref=e671]: TypeScript
+              - listitem [ref=e673]: Python
+              - listitem [ref=e675]: Rust
+              - listitem [ref=e677]: Node.js
+              - listitem [ref=e679]: Dart
+              - listitem [ref=e681]: Next.js
+              - listitem [ref=e683]: React
+              - listitem [ref=e685]: Flutter
+              - listitem [ref=e687]: Supabase
+          - generic [ref=e689]:
+            - generic [ref=e690]:
+              - img [ref=e692]
+              - heading "Security & Infrastructure" [level=3] [ref=e694]
+            - list [ref=e695]:
+              - listitem [ref=e696]: Authentication Systems
+              - listitem [ref=e698]: Access Control
+              - listitem [ref=e700]: Physical Security (Grade B)
+              - listitem [ref=e702]: STCW Maritime
+              - listitem [ref=e704]: Linux/Ubuntu
+              - listitem [ref=e706]: Network Edge Nodes
+              - listitem [ref=e708]: Escrow & Logistics
+          - generic [ref=e710]:
+            - generic [ref=e711]:
+              - img [ref=e713]
+              - heading "AI & Emerging Tech" [level=3] [ref=e716]
+            - list [ref=e717]:
+              - listitem [ref=e718]: LLM Orchestration
+              - listitem [ref=e720]: Qwen3 Models
+              - listitem [ref=e722]: Origin Quantum Cloud
+              - listitem [ref=e724]: Edge Computing
+              - listitem [ref=e726]: 5G Infrastructure
+              - listitem [ref=e728]: NDVI/Drone Imaging
+              - listitem [ref=e730]: Local AI Deployment
+          - generic [ref=e732]:
+            - generic [ref=e733]:
+              - img [ref=e735]
+              - heading "Creative & Operations" [level=3] [ref=e737]
+            - list [ref=e738]:
+              - listitem [ref=e739]: Live Sound (Soundcraft/JBL/Yamaha)
+              - listitem [ref=e741]: SME Digital Enablement
+              - listitem [ref=e743]: White-Label Platform Ops
+              - listitem [ref=e745]: Podcast & Media
+              - listitem [ref=e747]: Docker
+              - listitem [ref=e749]: Wayland
+        - generic [ref=e751]:
+          - heading "Development Environment" [level=3] [ref=e752]:
+            - img [ref=e753]
+            - text: Development Environment
+          - generic [ref=e755]:
+            - paragraph [ref=e756]: "SYSTEM: HP ProDesk 600 G3 MT"
+            - paragraph [ref=e757]: "OS: Linux/Ubuntu | Kernel 6.17 | Wayland"
+            - paragraph [ref=e758]: "PURPOSE: Infrastructure efficiency & local AI model deployment"
+      - generic [ref=e759]:
+        - heading "Establish Comms" [level=2] [ref=e760]:
+          - img [ref=e761]
+          - text: Establish Comms
+        - generic [ref=e767]:
+          - paragraph [ref=e769]: ">Interested in collaborating on secure automation systems, community projects, or discussing platform engineering? I'm always open to connecting with like-minded builders and security practitioners."
+          - generic [ref=e770]:
+            - generic [ref=e771]: OCIU Program Inquiry
+            - paragraph [ref=e773]: For information on joining the WeCreate youth training series, connect with Our Community in Unity (OCIU) directly. The program centers on cloud computing, digital marketing, and video editing, guided by the philosophy "Each one teach one."
+            - list [ref=e774]:
+              - listitem [ref=e775]:
+                - text: "Website:"
+                - link "ourcommunityinunity.org" [ref=e776] [cursor=pointer]:
+                  - /url: https://ourcommunityinunity.org
+              - listitem [ref=e777]:
+                - text: "Email:"
+                - link "info@ourcommunityinunity.org" [ref=e778] [cursor=pointer]:
+                  - /url: mailto:info@ourcommunityinunity.org
+              - listitem [ref=e779]:
+                - text: "Linktree:"
+                - link "linktr.ee/camoflage021" [ref=e780] [cursor=pointer]:
+                  - /url: https://linktr.ee/camoflage021
+              - listitem [ref=e781]: "Social: @camoflage021"
+              - listitem [ref=e782]: "Location: Bonteheuwel, Cape Town"
+          - generic [ref=e783]:
+            - link "INITIATE CONTACT" [ref=e784] [cursor=pointer]:
+              - /url: mailto:camo@79ratio.com
+              - img [ref=e785]
+              - text: INITIATE CONTACT
+            - link "VIEW GITHUB PROFILE" [ref=e788] [cursor=pointer]:
+              - /url: https://github.com/camodevops
+              - text: VIEW GITHUB PROFILE
+              - img [ref=e789]
+            - link "CONTACT ON WHATSAPP" [ref=e792] [cursor=pointer]:
+              - /url: https://wa.me/27604549405
+              - text: CONTACT ON WHATSAPP
+        - generic [ref=e795]:
+          - paragraph [ref=e796]: "SYSTEM STATUS: OPERATIONAL"
+          - paragraph [ref=e798]:
+            - text: Built with
+            - link "Next.js" [ref=e799] [cursor=pointer]:
+              - /url: https://nextjs.org
+            - text: +
+            - link "Tailwind" [ref=e800] [cursor=pointer]:
+              - /url: https://tailwindcss.com
+            - text: "| Deployed on"
+            - link "Vercel" [ref=e801] [cursor=pointer]:
+              - /url: https://vercel.com
+          - paragraph [ref=e802]: © 2026 Cameron de Vries | CamOservDEVOPS

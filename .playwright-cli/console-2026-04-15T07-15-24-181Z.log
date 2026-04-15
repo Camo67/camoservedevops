@@ -1,0 +1,5 @@
+[    2134ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[    2576ms] [LOG] [HMR] connected @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[    2873ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[    3225ms] [LOG] [Fast Refresh] done in 464ms @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[  229867ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/3327.b77ca16d39519caf.js:0

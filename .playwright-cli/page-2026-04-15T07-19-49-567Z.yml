@@ -1,0 +1,54 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e5]:
+      - paragraph [ref=e6]: Platform Intelligence
+      - heading "Deep context for your infrastructure, uptime, and platform story" [level=1] [ref=e7]
+      - paragraph [ref=e8]: This page surfaces the operational narrative behind your dashboard graphic. It connects GitHub repo health, live uptime monitoring, and site systems into a single story for investors, partners, and developers.
+      - generic [ref=e9]:
+        - paragraph [ref=e10]: What you’ll find here
+        - list [ref=e11]:
+          - listitem [ref=e12]: • GitHub repo health metrics and release cadence
+          - listitem [ref=e13]: • Live uptime checks for your flagship sites
+          - listitem [ref=e14]: • A visual infographic of platform flow and stack architecture
+          - listitem [ref=e15]: • Clear service pathways for CamodevOps, OCIU, and WeCreate
+      - iframe [ref=e18]:
+        - generic [active] [ref=f1e1]:
+          - generic [ref=f1e8]:
+            - main [ref=f1e9]:
+              - generic [ref=f1e21]:
+                - generic [ref=f1e31]:
+                  - img
+                - generic [ref=f1e37]:
+                  - img
+                - generic [ref=f1e43]:
+                  - img
+            - contentinfo [ref=f1e45]:
+              - group [ref=f1e51]:
+                - button "Zoom in and out" [ref=f1e54] [cursor=pointer]:
+                  - generic [ref=f1e55]:
+                    - generic:
+                      - img
+                - button "More" [ref=f1e57] [cursor=pointer]:
+                  - generic [ref=f1e58]:
+                    - generic:
+                      - img
+                - button "Enter full screen" [ref=f1e60] [cursor=pointer]:
+                  - generic [ref=f1e61]:
+                    - generic:
+                      - img
+          - generic [ref=f1e62]: Zoom in and out
+          - generic [ref=f1e63]: More
+          - generic [ref=f1e64]: Enter full screen
+      - generic [ref=e19]:
+        - paragraph [ref=e20]: This Canva embed displays the visual overview for your platform story.
+        - paragraph [ref=e21]:
+          - text: "View directly on Canva:"
+          - link "Canva design" [ref=e22] [cursor=pointer]:
+            - /url: https://www.canva.com/design/DAHG5FcHeJU/OoV11568Ur1zwprrvYORPQ/view?utm_content=DAHG5FcHeJU&utm_campaign=designshare&utm_medium=embeds&utm_source=link
+      - generic [ref=e23]:
+        - paragraph [ref=e24]: Use this page as the bridge between your operational dashboard and the business narrative for every visitor.
+        - link "Back to dashboard" [ref=e25] [cursor=pointer]:
+          - /url: /#dashboard
+  - button "Open Next.js Dev Tools" [ref=e31] [cursor=pointer]:
+    - img [ref=e32]
+  - alert [ref=e35]

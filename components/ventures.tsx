@@ -1,4 +1,5 @@
 import { ArrowUpRight, Award, Building2, Globe, Shield, Target, Users } from "lucide-react"
+import Image from "next/image"
 import Link from "next/link"
 
 const ventures = [
@@ -33,6 +34,7 @@ const ventures = [
     icon: Users,
     link: "#",
     status: "ACTIVE",
+    logoSrc: "/OCIU.png",
   },
   {
     title: "Specialized & White-Label Projects",
@@ -72,16 +74,16 @@ const achievements = [
 ]
 
 const statusColors: Record<string, string> = {
-  HQ: "bg-primary/20 text-primary",
-  ACTIVE: "bg-primary/20 text-primary",
-  DEV: "bg-yellow-500/20 text-yellow-400",
-  LIVE: "bg-primary/20 text-primary",
+  HQ: "status-badge status-badge-hq",
+  ACTIVE: "status-badge status-badge-active",
+  DEV: "status-badge status-badge-dev",
+  LIVE: "status-badge status-badge-live",
 }
 
 export function Ventures() {
   return (
-    <section id="ventures" className="scroll-mt-24">
-      <h2 className="mb-8 flex items-center gap-3 text-sm font-mono uppercase tracking-widest text-primary">
+    <section id="ventures" className="scroll-mt-24 section-shell">
+      <h2 className="section-heading">
         <Target className="h-4 w-4" />
         Business Pillars
       </h2>
@@ -94,23 +96,34 @@ export function Ventures() {
             href={venture.link}
             target={venture.link.startsWith("http") ? "_blank" : undefined}
             rel={venture.link.startsWith("http") ? "noopener noreferrer" : undefined}
-            className="group relative rounded-sm border border-primary/20 bg-card/50 p-6 transition-all hover:border-primary/50 hover:bg-primary/5 hud-bracket"
+            className="panel-card group relative p-6 transition-colors hover:border-primary/30 hover:bg-[rgba(6,24,8,0.9)] hud-bracket"
           >
             <div className="mb-4 flex items-center justify-between">
-              <div className="flex h-10 w-10 items-center justify-center rounded-sm border border-primary/30 bg-primary/10">
-                <venture.icon className="h-5 w-5 text-primary" />
-              </div>
+              {venture.logoSrc ? (
+                <div className="panel-card-soft relative h-14 w-14 overflow-hidden p-1">
+                  <Image
+                    src={venture.logoSrc}
+                    alt={`${venture.title} logo`}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              ) : (
+                <div className="panel-card-soft flex h-10 w-10 items-center justify-center">
+                  <venture.icon className="h-5 w-5 text-primary" />
+                </div>
+              )}
               <div className="flex items-center gap-2">
-                <span className={`rounded-sm px-2 py-0.5 text-xs font-mono ${statusColors[venture.status]}`}>
+                <span className={`${statusColors[venture.status]} px-2 py-1`}>
                   {venture.status}
                 </span>
                 <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-primary" />
               </div>
             </div>
-            <h3 className="font-medium text-foreground group-hover:text-primary transition-colors">
+            <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
               {venture.title}
             </h3>
-            <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+            <p className="mt-3 text-[15px] leading-7 text-muted-foreground">
               {venture.description}
             </p>
           </Link>
@@ -119,7 +132,7 @@ export function Ventures() {
 
       {/* Achievements & Certifications */}
       <div className="mt-16">
-        <h3 className="mb-6 flex items-center gap-3 text-sm font-mono uppercase tracking-widest text-primary">
+        <h3 className="section-heading mb-6">
           <Shield className="h-4 w-4" />
           Certifications & Validation
         </h3>
@@ -127,18 +140,18 @@ export function Ventures() {
           {achievements.map((achievement) => (
             <div
               key={achievement.title}
-              className="rounded-sm border border-primary/20 bg-card/30 p-4"
+              className="panel-card p-4"
             >
               <div className="flex items-center justify-between mb-2">
                 <div className="flex items-center gap-2">
                   <Award className="h-4 w-4 text-primary" />
-                  <h4 className="font-medium text-foreground text-sm">{achievement.title}</h4>
+                  <h4 className="font-semibold text-foreground text-sm">{achievement.title}</h4>
                 </div>
-                <span className="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded-sm">
+                <span className="status-badge status-badge-active px-2 py-1">
                   {achievement.year}
                 </span>
               </div>
-              <p className="text-xs text-muted-foreground mb-3">{achievement.description}</p>
+              <p className="mb-3 text-sm leading-6 text-muted-foreground">{achievement.description}</p>
               {/* Progress bar */}
               <div className="h-1 w-full bg-secondary rounded-full overflow-hidden">
                 <div 

@@ -4,15 +4,15 @@ import Link from "next/link"
 
 export function About() {
   return (
-    <section id="about" className="scroll-mt-24">
-      <h2 className="mb-8 flex items-center gap-3 text-sm font-mono uppercase tracking-widest text-primary">
+    <section id="about" className="scroll-mt-24 section-shell">
+      <h2 className="section-heading">
         <Crosshair className="h-4 w-4" />
         Intel Brief
       </h2>
       
       {/* Infographic with HUD frame */}
       <div className="mb-8 relative hud-bracket p-2">
-        <div className="overflow-hidden rounded-sm border border-primary/30">
+        <div className="panel-card overflow-hidden">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/unnamed%20%281%29.png-qYRUOQBwTI3Gxpq6dsBBtJKt6dnMR3.jpeg"
             alt="Cameron De Vries - Career Journey Infographic"
@@ -23,7 +23,7 @@ export function About() {
         </div>
       </div>
 
-      <div className="space-y-4 text-muted-foreground leading-relaxed">
+      <div className="panel-card-soft space-y-4 p-5 text-[15px] leading-7 text-muted-foreground">
         <p>
           Operating from my <span className="text-primary font-mono">Area of Operations (AO)</span> in Bonteheuwel, Cape Town, I engineer secure, scalable digital systems that sit at the intersection of physical risk management and operational technology.
         </p>
@@ -39,7 +39,7 @@ export function About() {
         <p>
           I also lead community impact through <Link href="#ventures" className="text-primary font-medium hover:underline transition-colors">OCIU</Link>, a Level 1 B-BBEE non-profit in Bonteheuwel centered on community empowerment and youth development. OCIU runs the <span className="text-foreground font-medium">WeCreate</span> series, delivering practical training in cloud computing, digital marketing, and video editing, guided by the motto <span className="text-primary font-mono">“Each One Teach One.”</span> I also manage a portfolio of 18+ white-label commerce and media platforms.
         </p>
-        <p className="text-primary font-mono italic border-l-2 border-primary pl-4">
+        <p className="border-l-2 border-primary pl-4 font-mono italic text-foreground">
           &ldquo;Each One Teach One.&rdquo;
         </p>
       </div>

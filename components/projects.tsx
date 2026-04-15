@@ -90,17 +90,17 @@ const projects = [
 ]
 
 const statusColors: Record<string, string> = {
-  ACTIVE: "bg-primary/20 text-primary border-primary/50",
-  DEV: "bg-yellow-500/20 text-yellow-400 border-yellow-500/50",
-  PROTOTYPE: "bg-blue-500/20 text-blue-400 border-blue-500/50",
-  PROPOSAL: "bg-orange-500/20 text-orange-400 border-orange-500/50",
-  LIVE: "bg-primary/20 text-primary border-primary/50",
+  ACTIVE: "status-badge status-badge-active",
+  DEV: "status-badge status-badge-dev",
+  PROTOTYPE: "status-badge status-badge-prototype",
+  PROPOSAL: "status-badge status-badge-proposal",
+  LIVE: "status-badge status-badge-live",
 }
 
 export function Projects() {
   return (
-    <section id="projects" className="scroll-mt-24">
-      <h2 className="mb-8 flex items-center gap-3 text-sm font-mono uppercase tracking-widest text-primary">
+    <section id="projects" className="scroll-mt-24 section-shell">
+      <h2 className="section-heading">
         <Layers className="h-4 w-4" />
         Active Operations
       </h2>
@@ -109,22 +109,21 @@ export function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group relative grid gap-4 pb-1 transition-all lg:hover:!opacity-100 lg:group-hover/list:opacity-50"
+              className="panel-card group grid gap-4 p-5 transition-colors hover:border-primary/30 hover:bg-[rgba(6,24,8,0.9)]"
             >
-              <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-sm border border-transparent transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:border-primary/30 lg:group-hover:bg-primary/5" />
-              <div className="z-10">
+              <div>
                 <div className="flex items-center gap-3 mb-2">
-                  <h3 className="font-medium leading-snug text-foreground">
-                    <span className="inline-flex items-baseline gap-1 text-base group-hover:text-primary transition-colors">
+                  <h3 className="font-semibold leading-snug text-foreground">
+                    <span className="inline-flex items-baseline gap-1 text-lg group-hover:text-primary transition-colors">
                       {project.title}
                       <ArrowUpRight className="inline-block h-4 w-4 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
                     </span>
                   </h3>
-                  <span className={`rounded-sm border px-2 py-0.5 text-xs font-mono ${statusColors[project.status]}`}>
+                  <span className={`${statusColors[project.status]} px-2 py-1`}>
                     {project.status}
                   </span>
                 </div>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                <p className="mt-3 text-[15px] leading-7 text-muted-foreground">
                   {project.description}
                 </p>
                 <div className="mt-4 flex flex-wrap items-center gap-4">
@@ -133,7 +132,7 @@ export function Projects() {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-sm font-mono text-muted-foreground hover:text-primary transition-colors"
+                      className="micro-button"
                     >
                       <Github className="h-4 w-4" />
                       CODE
@@ -144,7 +143,7 @@ export function Projects() {
                       href={project.live}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-sm font-mono text-muted-foreground hover:text-primary transition-colors"
+                      className="micro-button"
                     >
                       <ExternalLink className="h-4 w-4" />
                       VIEW
@@ -155,7 +154,7 @@ export function Projects() {
                       href={project.spotifyShow}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-sm font-mono text-muted-foreground hover:text-primary transition-colors"
+                      className="micro-button"
                     >
                       <ExternalLink className="h-4 w-4" />
                       SPOTIFY SHOW
@@ -164,7 +163,7 @@ export function Projects() {
                 </div>
                 {project.episodes?.length ? (
                   <div className="mt-4 space-y-2">
-                    <div className="text-sm font-medium text-primary">Podcast episodes</div>
+                    <div className="text-sm font-semibold text-foreground">Podcast episodes</div>
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       {project.episodes.map((episode) => (
                         <li key={episode.href}>
@@ -182,8 +181,8 @@ export function Projects() {
                   </div>
                 ) : null}
                 {project.spotifyEmbed ? (
-                  <div className="mt-6 rounded-sm border border-primary/20 bg-card/30 p-4">
-                    <div className="mb-3 text-sm font-medium text-primary">Spotify Podcast Embed</div>
+                  <div className="panel-card-soft mt-6 p-4">
+                    <div className="mb-3 text-sm font-semibold text-foreground">Spotify Podcast Embed</div>
                     <div className="overflow-hidden rounded-sm">
                       <iframe
                         src={project.spotifyEmbed}
@@ -198,14 +197,14 @@ export function Projects() {
                   </div>
                 ) : null}
                 {project.youtubeChannel ? (
-                  <div className="mt-6 rounded-sm border border-primary/20 bg-card/30 p-4">
-                    <div className="mb-3 text-sm font-medium text-primary">YouTube Channel</div>
-                    <p className="text-sm text-muted-foreground mb-3">Subscribe and watch channel content from @2cameyboy6.</p>
+                  <div className="panel-card-soft mt-6 p-4">
+                    <div className="mb-3 text-sm font-semibold text-foreground">YouTube Channel</div>
+                    <p className="mb-3 text-sm text-muted-foreground">Subscribe and watch channel content from @2cameyboy6.</p>
                     <Link
                       href={project.youtubeChannel}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 rounded-sm border border-primary/50 bg-primary/5 px-4 py-2 text-sm font-mono text-primary hover:bg-primary/10"
+                      className="micro-button"
                     >
                       <ExternalLink className="h-4 w-4" />
                       Visit YouTube Channel
@@ -229,7 +228,7 @@ export function Projects() {
                   {project.technologies.map((tech) => (
                     <li
                       key={tech}
-                      className="rounded-sm border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+                      className="tag-chip px-3 py-1"
                     >
                       {tech}
                     </li>
@@ -247,7 +246,7 @@ export function Projects() {
           href="https://github.com/camodevops"
           target="_blank"
           rel="noopener noreferrer"
-          className="group inline-flex items-center gap-2 font-mono text-sm text-foreground hover:text-primary transition-colors"
+          className="micro-button group"
         >
           [VIEW FULL PROJECT ARCHIVE]
           <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />

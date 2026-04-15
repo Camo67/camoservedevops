@@ -1,0 +1,6 @@
+.git
+.github
+.vscode
+.playwright-cli
+output
+tsconfig.tsbuildinfo

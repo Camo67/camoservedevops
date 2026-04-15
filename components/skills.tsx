@@ -67,8 +67,8 @@ const techStack = [
 
 export function Skills() {
   return (
-    <section id="skills" className="scroll-mt-24">
-      <h2 className="mb-8 flex items-center gap-3 text-sm font-mono uppercase tracking-widest text-primary">
+    <section id="skills" className="scroll-mt-24 section-shell">
+      <h2 className="section-heading">
         <Cpu className="h-4 w-4" />
         Technical Arsenal
       </h2>
@@ -96,17 +96,17 @@ export function Skills() {
         {skillCategories.map((category) => (
           <div
             key={category.title}
-            className="rounded-sm border border-primary/20 bg-card/50 p-6 transition-colors hover:border-primary/40"
+            className="panel-card p-6 transition-colors hover:border-primary/30"
           >
             <div className="mb-4 flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-sm border border-primary/30 bg-primary/10">
+              <div className="panel-card-soft flex h-10 w-10 items-center justify-center">
                 <category.icon className="h-5 w-5 text-primary" />
               </div>
-              <h3 className="font-mono text-sm text-foreground uppercase tracking-wide">{category.title}</h3>
+              <h3 className="font-mono text-sm font-semibold text-foreground uppercase tracking-[0.22em]">{category.title}</h3>
             </div>
             <ul className="space-y-2">
               {category.skills.map((skill) => (
-                <li key={skill} className="flex items-center gap-2 text-sm text-muted-foreground">
+                <li key={skill} className="flex items-center gap-2 text-sm leading-6 text-muted-foreground">
                   <span className="h-1 w-1 bg-primary rounded-full" />
                   {skill}
                 </li>
@@ -117,12 +117,12 @@ export function Skills() {
       </div>
 
       {/* Hardware */}
-      <div className="mt-8 rounded-sm border border-primary/20 bg-card/30 p-6">
-        <h3 className="mb-4 text-sm font-mono text-foreground flex items-center gap-2 uppercase tracking-wide">
+      <div className="panel-card mt-8 p-6">
+        <h3 className="mb-4 flex items-center gap-2 text-sm font-mono font-semibold uppercase tracking-[0.22em] text-foreground">
           <HardDrive className="h-4 w-4 text-primary" />
           Development Environment
         </h3>
-        <div className="font-mono text-sm text-muted-foreground space-y-1">
+        <div className="font-mono text-sm leading-7 text-muted-foreground space-y-1">
           <p><span className="text-primary">SYSTEM:</span> HP ProDesk 600 G3 MT</p>
           <p><span className="text-primary">OS:</span> Linux/Ubuntu | Kernel 6.17 | Wayland</p>
           <p><span className="text-primary">PURPOSE:</span> Infrastructure efficiency & local AI model deployment</p>
