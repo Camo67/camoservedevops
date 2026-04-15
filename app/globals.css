@@ -192,6 +192,27 @@
   background-repeat: no-repeat, repeat, repeat;
 }
 
+.bg-4d {
+  background-image: 
+    url("/devopsbg.svg"),
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.14), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(168, 85, 247, 0.12), transparent 30%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.04), rgba(0, 0, 0, 0.08));
+  background-size: cover, 220px 220px, 280px 280px, cover;
+  background-position: center, top left, bottom right, center;
+  background-repeat: no-repeat;
+  animation: float-4d 18s ease-in-out infinite alternate;
+}
+
+@keyframes float-4d {
+  0% {
+    background-position: center, top left, bottom right, center;
+  }
+  100% {
+    background-position: center, 10% 10%, 90% 90%, center;
+  }
+}
+
 /* Pulse animation */
 @keyframes pulse-glow {
   0%, 100% { opacity: 1; }

@@ -101,10 +101,13 @@ export function Hero() {
             De Vries
           </h1>
           <p className="text-lg font-medium text-primary font-mono cursor-blink">
-            Mission systems online
+            Hyperspace 4D command grid active
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            Multi-disciplinary security and automation practitioner operating as CamoServices. I build secure, scalable platforms that merge physical risk management with digital infrastructure efficiency.
+            Multi-disciplinary security and automation practitioner operating as CamoServices. I build secure, scalable platforms that merge physical risk management with digital infrastructure efficiency in a new 4D resolution.
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            Experience high-fidelity systems with holographic visuals, AI-driven orchestration, and live operational telemetry wrapped in futuristic site design.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             My stack spans TypeScript, Next.js, Python, Rust, Supabase, and local edge systems—from P2P marketplaces to AI orchestration and network edge nodes.
