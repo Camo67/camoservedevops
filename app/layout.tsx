@@ -6,6 +6,8 @@ import './globals.css'
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
+export const metadataBase = new URL('https://camoservedevops.vercel.app')
+
 export const metadata: Metadata = {
   title: 'CamOservDEVOPS | Mission Systems Online',
   description: 'Cameron "Camo" de Vries - Full-stack DevOps engineer bridging physical security and digital infrastructure. Based in Cape Town, South Africa.',
@@ -13,10 +15,28 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/infograph.png',
-        type: 'image/png',
+        url: '/homecamoDownloadsCamoportfoliopubliclogo.png (Animated Logo).svg',
+        type: 'image/svg+xml',
       },
     ],
+  },
+  openGraph: {
+    title: 'CamOservDEVOPS | Mission Systems Online',
+    description: 'Cameron "Camo" de Vries - Full-stack DevOps engineer bridging physical security and digital infrastructure.',
+    type: 'website',
+    url: 'https://camoservedevops.vercel.app',
+    images: [
+      {
+        url: '/homecamoDownloadsCamoportfoliopubliclogo.png (Animated Logo).svg',
+        alt: 'CamOservDEVOPS logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'CamOservDEVOPS | Mission Systems Online',
+    description: 'Cameron "Camo" de Vries - Full-stack DevOps engineer bridging physical security and digital infrastructure.',
+    images: ['/homecamoDownloadsCamoportfoliopubliclogo.png (Animated Logo).svg'],
   },
 }
 

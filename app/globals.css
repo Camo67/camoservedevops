@@ -184,9 +184,12 @@
 /* Grid background */
 .grid-bg {
   background-image: 
+    url("/homecamoDownloadsCamoportfoliopubliclogo.png (Animated Logo).svg"),
     linear-gradient(rgba(0, 255, 0, 0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0, 255, 0, 0.05) 1px, transparent 1px);
-  background-size: 40px 40px;
+  background-size: cover, 40px 40px, 40px 40px;
+  background-position: center;
+  background-repeat: no-repeat, repeat, repeat;
 }
 
 /* Pulse animation */

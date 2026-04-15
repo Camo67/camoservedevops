@@ -17,7 +17,7 @@ const socialLinks = [
   },
   {
     name: "Podcast",
-    href: "https://unspoken-truths.com",
+    href: "https://open.spotify.com/show/7cwfPZpCqL3L1T0gLsjkx0",
     icon: Podcast,
   },
   {
@@ -54,8 +54,8 @@ export function Hero() {
       <div className="relative w-full aspect-[16/9] max-w-md hud-bracket p-1 -ml-1">
         <div className="relative h-full w-full overflow-hidden rounded-sm border border-primary/30 glow-border bg-[#020202]">
           <Image
-            src="/infograph.png"
-            alt="CamOservDEVOPS infographic logo"
+            src="/homecamoDownloadsCamoportfoliopubliclogo.png (Animated Logo).svg"
+            alt="CamoServices logo"
             fill
             className="object-contain"
             priority
@@ -78,7 +78,7 @@ export function Hero() {
       <div className="relative h-36 w-36 hud-bracket p-1">
         <div className="relative h-full w-full overflow-hidden rounded-sm border border-primary/50 glow-border">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/QVZlRmZVQTNQa0NoU2RaWg-removebg-preview-JGv7yUzcRsWRLqLOAZ5YQaZ5BmqrCA.png"
+            src="/homecamoDownloadsCamoportfoliopubliclogo.png (Animated Logo).svg"
             alt="Cameron de Vries"
             fill
             className="object-cover object-top"
