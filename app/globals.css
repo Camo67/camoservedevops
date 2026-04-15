@@ -184,7 +184,7 @@
 /* Grid background */
 .grid-bg {
   background-image: 
-    url("/homecamoDownloadsCamoportfoliopubliclogo.png (Animated Logo).svg"),
+    url("/devopsbg.svg"),
     linear-gradient(rgba(0, 255, 0, 0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0, 255, 0, 0.05) 1px, transparent 1px);
   background-size: cover, 40px 40px, 40px 40px;
