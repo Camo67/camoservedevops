@@ -1,12 +1,12 @@
 "use client"
 
-import { Github, Linkedin, Mail, MapPin, Podcast, Terminal, RotateCcw } from "lucide-react"
-import Image from "next/image"
-import Link from "next/link"
-import { useState } from "react"
+import { Github, Linkedin, Mail, MapPin, Podcast, Terminal, RotateCcw } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
 
-const logoSrc = "/homecamoDownloadsCamoportfoliopubliclogo.png%20(Animated%20Logo).svg"
-const profileSrc = "/logo(11%20x%208.5%20in).svg"
+const logoSrc = "/favicon.svg"; // Using the favicon as a smaller logo
+const profileSrc = "/logo(11%20x%208.5%20in).svg";
 
 const socialLinks = [
   {
@@ -29,7 +29,18 @@ const socialLinks = [
     href: "mailto:devries.cameron20@gmail.com",
     icon: Mail,
   },
-]
+];
+
+const navItems = [
+  { label: "ABOUT", href: "#about" },
+  { label: "EXPERIENCE", href: "#experience" },
+  { label: "PROJECTS", href: "#projects" },
+  { label: "VENTURES", href: "#ventures" },
+  { label: "SKILLS", href: "#skills" },
+  { label: "PLATFORM", href: "/platform" },
+  { label: "AV EXPLORER", href: "/av-explorer" },
+  { label: "CONTACT", href: "#contact" },
+];
 
 export function Hero() {
   const [isPlatformMode, setIsPlatformMode] = useState(false);
@@ -41,60 +52,38 @@ export function Hero() {
   return (
     <div className="w-full">
       {/* Top Identity Panel */}
-      <div className="section-shell space-y-6">
-        {/* Brand Banner and System Status */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <div className="lg:col-span-2">
-            <div className="flex flex-col sm:flex-row items-start gap-4">
-              {/* Brand Banner */}
-              <div className="relative w-full max-w-xs aspect-[16/9] lg:w-64 hud-bracket p-1">
-                <div className="relative h-full w-full overflow-hidden rounded-sm border border-primary/30 glow-border bg-[#020202]">
-                  <Image
-                    src={logoSrc}
-                    alt="CamoServDevops logo"
-                    fill
-                    className="object-contain"
-                    priority
-                  />
-                </div>
-              </div>
-
-              {/* System Status HUD */}
-              <div className="panel-card-soft flex-1 p-4 font-mono text-xs text-muted-foreground">
-                <div className="flex items-center gap-2 text-foreground">
-                  <span className="inline-block h-2 w-2 rounded-full bg-primary animate-pulse" />
-                  <span>SYSTEM STATUS: OPERATIONAL</span>
-                </div>
-                <div>USER: COMMANDER</div>
-                <div>ENCRYPTION: ACTIVE</div>
-                <div>SESSION ID: 001-OPENING</div>
-              </div>
+      <div className="space-y-6">
+        {/* Identity Info Row */}
+        <div className="panel-card flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-5">
+          <div className="flex items-center gap-3">
+            <div className="h-8 w-8 flex-shrink-0">
+              <Image
+                src={logoSrc}
+                alt="CamoServDevops logo"
+                width={32}
+                height={32}
+                className="object-contain"
+              />
             </div>
-          </div>
-
-          {/* Identity Info */}
-          <div className="panel-card p-5">
-            <div className="flex items-center gap-3">
-              <Terminal className="h-5 w-5 text-primary" />
-              <span className="font-mono text-sm tracking-widest">
-                <span className="text-foreground font-bold">Camo</span>
-                <span className="text-primary font-bold">ServDevops</span>
-              </span>
-            </div>
-            <div className="mt-3 space-y-2">
-              <h1 className="text-lg font-bold tracking-tight text-foreground">
+            <div>
+              <div className="flex items-center gap-3">
+                <Terminal className="h-5 w-5 text-primary" />
+                <span className="font-mono text-sm tracking-widest">
+                  <span className="text-foreground font-bold">Camo</span>
+                  <span className="text-primary font-bold">ServDevops</span>
+                </span>
+              </div>
+              <h1 className="text-lg font-bold tracking-tight text-foreground mt-1">
                 Cameron{" "}
                 <span className="text-primary glow-text">&ldquo;Camo&rdquo;</span>{" "}
                 De Vries
               </h1>
-              <p className="text-sm font-medium text-primary font-mono cursor-blink">
-                Hyperspace 4D command grid active
-              </p>
             </div>
-            <div className="mt-3 flex items-center gap-2 text-sm text-muted-foreground font-mono">
-              <MapPin className="h-4 w-4 text-primary" />
-              <span>AO: Bonteheuwel, Cape Town, ZA</span>
-            </div>
+          </div>
+          
+          <div className="flex items-center gap-2 text-sm text-muted-foreground font-mono">
+            <MapPin className="h-4 w-4 text-primary" />
+            <span>AO: Bonteheuwel, Cape Town, ZA</span>
           </div>
         </div>
 
@@ -169,7 +158,7 @@ export function Hero() {
                   title="Platform Intelligence Video"
                   className="absolute top-0 left-0 w-full h-full border-0"
                   frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allow="accelerometer; autoplay; clipboard; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                 />
               </div>
@@ -190,6 +179,17 @@ export function Hero() {
           )}
         </div>
 
+        {/* System Status HUD */}
+        <div className="panel-card-soft p-4 font-mono text-xs text-muted-foreground">
+          <div className="flex items-center gap-2 text-foreground">
+            <span className="inline-block h-2 w-2 rounded-full bg-primary animate-pulse" />
+            <span>SYSTEM STATUS: OPERATIONAL</span>
+          </div>
+          <div>USER: COMMANDER</div>
+          <div>ENCRYPTION: ACTIVE</div>
+          <div>SESSION ID: 001-OPENING</div>
+        </div>
+
         {/* Social Links */}
         <div className="panel-card-soft flex items-center justify-center gap-5 p-4">
           {socialLinks.map((link) => (
@@ -208,23 +208,4 @@ export function Hero() {
       </div>
     </div>
   );
-}
-
-      {/* Social Links */}
-      <div className="panel-card-soft flex items-center justify-center gap-5 p-4">
-        {socialLinks.map((link) => (
-          <Link
-            key={link.name}
-            href={link.href}
-            target={link.href.startsWith("http") ? "_blank" : undefined}
-            rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
-            className="text-muted-foreground transition-colors hover:text-foreground"
-            aria-label={link.name}
-          >
-            <link.icon className="h-5 w-5" />
-          </Link>
-        ))}
-      </div>
-    </div>
-  )
 }

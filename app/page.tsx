@@ -14,9 +14,9 @@ export default function Page() {
     <main className="min-h-screen relative grid-bg scanline bg-4d">
       <div className="fixed inset-0 pointer-events-none bg-[rgba(3,7,4,0.28)] z-0" />
       <div className="fixed inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.01)_0%,rgba(0,0,0,0.28)_100%)] z-0" />
-      <div className="mx-auto max-w-6xl px-6 py-6 lg:py-12 relative z-10 w-full">
+      <div className="mx-auto max-w-6xl px-6 py-6 lg:py-8 relative z-10 w-full">
         {/* Top Navigation Bar */}
-        <header className="flex justify-between items-center mb-8 lg:mb-12">
+        <header className="flex justify-between items-center mb-6 lg:mb-8">
           <div className="flex items-center gap-2">
             <span className="font-mono text-sm tracking-widest font-bold text-primary">
               CAMOSERVDEVOPS
@@ -46,7 +46,7 @@ export default function Page() {
           </nav>
         </header>
         
-        <div className="space-y-10">
+        <div className="space-y-8">
           <Hero />
           <div className="space-y-10">
             <About />

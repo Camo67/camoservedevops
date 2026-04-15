@@ -236,3 +236,31 @@ Import trace:
     ./components/hero.tsx
     ./app/page.tsx @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0b114m5._.js:1945
 [ 8112901ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0b114m5._.js:1226
+[11631853ms] [ERROR] ./components/hero.tsx:228:6
+Unterminated regexp literal
+  226 |         ))}
+  227 |       </div>
+> 228 |     </div>
+      |      ^^^^^
+  229 |   )
+  230 | }
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0b114m5._.js:1945
+[11631881ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0b114m5._.js:1226
+[22933255ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0b114m5._.js:1226
+[22933853ms] [LOG] [Fast Refresh] done in 695ms @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0b114m5._.js:1226
+[22934243ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0b114m5._.js:1226
+[22934634ms] [LOG] [Fast Refresh] done in 491ms @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0b114m5._.js:1226
+[22935927ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[22936241ms] [LOG] [HMR] connected @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[22940596ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://www.canva.com/_ajax/ae/createBatch:0
+[22941415ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://www.canva.com/_ajax/ae/createBatch:0
+[22942025ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://www.canva.com/_ajax/ae/createBatch:0
+[22944747ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://www.canva.com/_ajax/ae/createBatch:0
+[22965453ms] [LOG] [Fast Refresh] rebuilding @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
+[22965638ms] [LOG] [Fast Refresh] done in 246ms @ http://127.0.0.1:3000/_next/static/chunks/0_9e_next_dist_0dwcpb1._.js:2431
