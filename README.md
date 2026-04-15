@@ -21,6 +21,24 @@ pnpm dev
 
 Deploy with Vercel or any Next.js-compatible platform.
 
+## Publisher
+
+- Name: Cameron “Camo” de Vries
+- Brand: CamOservDEVOPS / CamoServices
+- GitHub: [camodevops](https://github.com/camodevops)
+- Email: camo@79ratio.com
+- Live site: https://camoservedevops.vercel.app/
+
+## GitHub Repo Pulse
+
+- Repository: `camodevops/Camoportfolio`
+- Publisher: Cameron “Camo” de Vries
+- Stars: —
+- Forks: —
+- Issues: —
+- Last pushed: Unavailable
+- License: Unknown
+
 ## Notes
 
 - Set `GITHUB_OWNER`, `GITHUB_REPO`, and optionally `GITHUB_TOKEN` in environment variables to enable live repo stats.

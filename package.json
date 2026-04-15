@@ -2,6 +2,12 @@
   "name": "my-project",
   "version": "0.1.0",
   "private": true,
+  "author": "Cameron \"Camo\" de Vries <camo@79ratio.com>",
+  "publisher": {
+    "name": "Cameron \"Camo\" de Vries",
+    "url": "https://github.com/camodevops",
+    "email": "camo@79ratio.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
