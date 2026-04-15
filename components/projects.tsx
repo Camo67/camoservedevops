@@ -62,7 +62,7 @@ const projects = [
       "Primary intelligence channel exploring themes like the \"Misguided War\" (redirecting community anger toward systemic poverty) and legal literacy. Building community intelligence and resilience.",
     technologies: ["Audio", "Community", "Social Justice"],
     github: null,
-    live: "https://unspoken-truths.com",
+    live: "https://open.spotify.com/show/7cwfPZpCqL3L1T0gLsjkx0",
     spotifyShow: "https://open.spotify.com/show/7cwfPZpCqL3L1T0gLsjkx0",
     spotifyEmbed: "https://open.spotify.com/embed/show/7cwfPZpCqL3L1T0gLsjkx0?utm_source=generator&theme=0",
     youtubeChannel: "https://www.youtube.com/@2cameyboy6",

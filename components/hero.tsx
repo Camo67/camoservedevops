@@ -34,6 +34,7 @@ const navItems = [
   { label: "VENTURES", href: "#ventures" },
   { label: "SKILLS", href: "#skills" },
   { label: "PLATFORM", href: "/platform" },
+  { label: "AV EXPLORER", href: "/av-explorer" },
   { label: "CONTACT", href: "#contact" },
 ]
 
@@ -44,6 +45,7 @@ const navButtons = [
   { label: "Ventures", href: "#ventures" },
   { label: "Skills", href: "#skills" },
   { label: "Platform", href: "/platform" },
+  { label: "AV Explorer", href: "/av-explorer" },
   { label: "Contact", href: "#contact" },
 ]
 
