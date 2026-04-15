@@ -54,9 +54,9 @@ const navButtons = [
 
 export function Hero() {
   return (
-    <div className="section-shell space-y-6 lg:max-h-[calc(100vh-10rem)] lg:overflow-y-auto">
+    <div className="section-shell space-y-6">
       {/* Brand Banner */}
-      <div className="relative w-full aspect-[16/9] max-w-md hud-bracket p-1">
+      <div className="relative w-full aspect-[16/9] max-w-2xl mx-auto hud-bracket p-1">
         <div className="relative h-full w-full overflow-hidden rounded-sm border border-primary/30 glow-border bg-[#020202]">
           <Image
             src={logoSrc}
@@ -69,7 +69,7 @@ export function Hero() {
       </div>
 
       {/* System Status HUD */}
-      <div className="panel-card-soft space-y-2 p-4 font-mono text-xs text-muted-foreground">
+      <div className="panel-card-soft space-y-2 p-4 font-mono text-xs text-muted-foreground mx-auto max-w-2xl">
         <div className="flex items-center gap-2 text-foreground">
           <span className="inline-block h-2 w-2 rounded-full bg-primary animate-pulse" />
           <span>SYSTEM STATUS: OPERATIONAL</span>
@@ -80,7 +80,7 @@ export function Hero() {
       </div>
 
       {/* Profile Photo with HUD frame */}
-      <div className="relative h-36 w-36 hud-bracket p-1">
+      <div className="relative h-48 w-48 mx-auto hud-bracket p-1">
         <div className="relative h-full w-full overflow-hidden rounded-sm border border-primary/50 glow-border">
           <Image
             src={profileSrc}
@@ -92,8 +92,8 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="panel-card space-y-5 p-5">
-        <div className="flex items-center gap-3">
+      <div className="panel-card space-y-5 p-8 text-center">
+        <div className="flex items-center justify-center gap-3">
           <Terminal className="h-5 w-5 text-primary" />
           <span className="font-mono text-sm tracking-widest">
             <span className="text-foreground font-bold">Camo</span>
@@ -101,16 +101,14 @@ export function Hero() {
           </span>
         </div>
         <div className="space-y-3">
-          <h1 className="text-3xl font-bold tracking-tight text-foreground lg:text-4xl text-balance">
-            Cameron{" "}
-            <span className="text-primary glow-text">&ldquo;Camo&rdquo;</span>{" "}
-            De Vries
+          <h1 className="text-3xl font-bold tracking-tight text-foreground lg:text-5xl text-balance">
+            <span className="text-primary glow-text">Camo</span> De Vries
           </h1>
-          <p className="text-base font-medium text-primary font-mono cursor-blink">
+          <p className="text-xl font-medium text-primary font-mono cursor-blink">
             Hyperspace 4D command grid active
           </p>
         </div>
-        <div className="space-y-4 text-[15px] leading-7 text-muted-foreground">
+        <div className="space-y-4 text-[15px] leading-7 text-muted-foreground max-w-3xl mx-auto">
           <p>
             Multi-disciplinary security and automation practitioner operating as CamoServices. I build secure, scalable platforms that merge physical risk management with digital infrastructure efficiency in a new 4D resolution.
           </p>
@@ -121,22 +119,22 @@ export function Hero() {
             My stack spans TypeScript, Next.js, Python, Rust, Supabase, and local edge systems, from P2P marketplaces to AI orchestration and network edge nodes.
           </p>
         </div>
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center justify-center">
           <Link
             href="/platform"
-            className="action-primary px-4 py-3 text-sm"
+            className="action-primary px-6 py-3 text-sm"
           >
             Explore platform intelligence
           </Link>
         </div>
-        <div className="flex items-center gap-2 text-sm text-muted-foreground font-mono">
+        <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground font-mono">
           <MapPin className="h-4 w-4 text-primary" />
           <span>AO: Bonteheuwel, Cape Town, ZA</span>
         </div>
       </div>
       <div className="panel-card p-4">
-        <p className="eyebrow text-primary">Quick navigation</p>
-        <div className="mt-4 grid gap-2 sm:grid-cols-2">
+        <p className="eyebrow text-primary text-center">Quick navigation</p>
+        <div className="mt-4 grid gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {navButtons.map((item) => (
               <Link
                 key={item.label}
@@ -150,7 +148,7 @@ export function Hero() {
       </div>
 
       {/* Social Links */}
-      <div className="panel-card-soft flex items-center gap-5 p-4">
+      <div className="panel-card-soft flex items-center justify-center gap-5 p-4">
         {socialLinks.map((link) => (
           <Link
             key={link.name}

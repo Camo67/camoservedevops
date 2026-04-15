@@ -14,13 +14,8 @@ export default function Page() {
       <div className="fixed inset-0 pointer-events-none bg-[rgba(3,7,4,0.28)] z-0" />
       <div className="fixed inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.01)_0%,rgba(0,0,0,0.28)_100%)] z-0" />
       <div className="mx-auto max-w-6xl px-6 py-12 lg:py-24 relative z-10">
-        <div className="grid gap-10 lg:grid-cols-[320px_1fr] lg:gap-10">
-          {/* Left Sidebar - Fixed on desktop */}
-          <aside className="lg:sticky lg:top-24 lg:h-fit">
-            <Hero />
-          </aside>
-          
-          {/* Main Content */}
+        <div className="space-y-10">
+          <Hero />
           <div className="space-y-10">
             <About />
             <Dashboard />
