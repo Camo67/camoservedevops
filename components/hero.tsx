@@ -54,8 +54,8 @@ export function Hero() {
       <div className="relative w-full aspect-[16/9] max-w-md hud-bracket p-1 -ml-1">
         <div className="relative h-full w-full overflow-hidden rounded-sm border border-primary/30 glow-border bg-[#020202]">
           <Image
-            src="/logo.png"
-            alt="CamoServices logo"
+            src="/infograph.png"
+            alt="CamOservDEVOPS infographic logo"
             fill
             className="object-contain"
             priority
