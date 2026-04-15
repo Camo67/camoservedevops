@@ -7,6 +7,7 @@ import { Ventures } from "@/components/ventures"
 import { Skills } from "@/components/skills"
 import { Contact } from "@/components/contact"
 import { GitHubProjects } from "@/components/github-projects"
+import { PlatformIntelligence } from "@/components/platform-intelligence"
 
 export default function Page() {
   return (
@@ -22,6 +23,7 @@ export default function Page() {
             <Experience />
             <Projects />
             <GitHubProjects />
+            <PlatformIntelligence />
             <Ventures />
             <Skills />
             <Contact />
