@@ -23,7 +23,28 @@ export default function PlatformPage() {
               </ul>
             </div>
             <div className="rounded-sm overflow-hidden border border-primary/10 bg-black/10">
-              <img src="/infograph.png" alt="CamodevOps infrastructure and stack infographic" className="w-full object-cover" />
+              <div className="relative w-full overflow-hidden pt-[100%]">
+                <iframe
+                  loading="lazy"
+                  className="absolute inset-0 h-full w-full border-0"
+                  src="https://www.canva.com/design/DAHG5FcHeJU/OoV11568Ur1zwprrvYORPQ/view?embed"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+            <div className="rounded-sm border border-primary/10 bg-card/40 p-4 text-sm text-muted-foreground">
+              <p>This Canva embed displays the visual overview for your platform story.</p>
+              <p className="mt-2">
+                View directly on Canva:{' '}
+                <Link
+                  href="https://www.canva.com/design/DAHG5FcHeJU/OoV11568Ur1zwprrvYORPQ/view?utm_content=DAHG5FcHeJU&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  Canva design
+                </Link>
+              </p>
             </div>
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <p className="text-sm text-muted-foreground">
